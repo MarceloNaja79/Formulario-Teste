@@ -6,7 +6,7 @@ seletor de data de nascimento, campos de escolha (cidade e interesses)
 e um botão de envio. Adicionei um pouco de CSS básico para uma melhor visualização.
 
 <figuri>
-<img src="" />
+<img src="Formulario teste.PNG" />
 <figcaption>Foto do Formulario</figcaption>
 <figuri/>
 
