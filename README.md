@@ -24,4 +24,4 @@ Interesses: Exige que pelo menos um interesse seja selecionado.
 
 Meus Contatos:👇👇
 
-E-mail: marcelonaja41@gmail.com ✉️ LinkedIn: www.linkedin.com/in/ marcelo-dos-santos-moreira 🔗 Telefone: +551299255-2089 📞
+E-mail: marcelonaja41@gmail.com ✉️<br> LinkedIn: www.linkedin.com/in/ marcelo-dos-santos-moreira 🔗<br> Telefone: +551299255-2089 📞
