@@ -10,7 +10,8 @@ e um botão de envio. Adicionei um pouco de CSS básico para uma melhor visualiz
 <figcaption>Foto do Formulario</figcaption>
 <figuri/>
 
-### Nome Completo: Verifica se o campo não está vazio e tem pelo menos 3 caracteres.
+### Atualizações:
+Nome Completo: Verifica se o campo não está vazio e tem pelo menos 3 caracteres.
 E-mail: Valida o formato do e-mail usando uma expressão regular.
 Senha: Garante que a senha tenha pelo menos 8 caracteres.
 Idade: Verifica se a idade está entre 18 e 120 anos.
