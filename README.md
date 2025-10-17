@@ -1,7 +1,7 @@
 # Formulario de Teste 
 
-### com o formulário de cadastro que você solicitou.
-Ele inclui os campos de nome, e-mail, senha, idade (com validação básica de min/max), 
+### Neste Projeto eu inclui: 
+Os campos de nome, e-mail, senha, idade (com validação básica de min/max), 
 seletor de data de nascimento, campos de escolha (cidade e interesses)
 e um botão de envio. Adicionei um pouco de CSS básico para uma melhor visualização.
 
