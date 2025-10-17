@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #555;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="number"],
+        input[type="date"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        .checkbox-group label {
+            font-weight: normal;
+            display: inline-block;
+            margin-left: 5px;
+        }
+        .checkbox-group input[type="checkbox"] {
+            width: auto;
+            margin-right: 10px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        input:focus,
+        select:focus {
+            border-color: #007bff;
+            outline: none;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+        }
+
+        .checkbox-group label {
+            margin-left: 8px;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            vertical-align: middle;
+            margin-top: -2px;
+            width: 16px;
+            height: 16px;
+        }
+
+        form {
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Formulário de Cadastro</h2>
+        <form action="#" method="post">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required minlength="3">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required minlength="8">
+            </div>
+
+            <div class="form-group">
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" required min="18" max="120">
+            </div>
+
+            <div class="form-group">
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" name="dataNascimento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="cidade">Cidade:</label>
+                <select id="cidade" name="cidade" required>
+                    <option value="">Selecione uma cidade</option>
+                    <option value="saopaulo">São Paulo</option>
+                    <option value="riodejaneiro">Rio de Janeiro</option>
+                    <option value="belohorizonte">Belo Horizonte</option>
+                    <option value="portoalegre">Porto Alegre</option>
+                    <option value="salvador">Salvador</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Interesses:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="interesse1" name="interesses[]" value="tecnologia">
+                    <label for="interesse1">Tecnologia</label>  
+
+                    <input type="checkbox" id="interesse2" name="interesses[]" value="esportes">
+                    <label for="interesse2">Esportes</label>  
+
+                    <input type="checkbox" id="interesse3" name="interesses[]" value="musica">
+                    <label for="interesse3">Música</label>  
+
+                    <input type="checkbox" id="interesse4" name="interesses[]" value="leitura">
+                    <label for="interesse4">Leitura</label>
+                </div>
+            </div>
+
+            <button type="submit">Cadastrar</button>
+        </form>
+    </div>
+    
+</body>
+</htm
